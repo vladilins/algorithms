@@ -18,7 +18,7 @@ function patternMatcher(pattern, string) {
     }
   } else {
     let lenOfX = string.length / counts["x"];
-    if (lenOfx % 1 === 0) {
+    if (lenOfX % 1 === 0) {
       const x = string.slice(0, lenOfX);
       const potentialMatch = newPattern.map((char) => (char === "x" ? x : y));
       if (string === potentialMatch.join("")) {
