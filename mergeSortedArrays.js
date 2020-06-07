@@ -29,6 +29,7 @@
 //   return items[minValueIdx];
 // }
 
+// O(nlog(k) + k) time | O(n + k) space - n total number of elements, k - number of arrays
 function mergeSortedArrays(arrays) {
   const sortedList = [];
   const smallestItems = [];
