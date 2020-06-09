@@ -1,3 +1,4 @@
+// O(n) time | O(n) space
 function rearrangeLinkedList(head, k) {
   let smallerListHead = null;
   let smallerListTail = null;
