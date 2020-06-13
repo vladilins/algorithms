@@ -1,3 +1,4 @@
+// O(b + s) time | O(b + s) space - b = bigString.length
 function smallestSubstringContaining(bigString, smallString) {
   const targetCharCounts = getCharCounts(smallString);
   const substringBounds = getSubstringBounds(bigString, targetCharCounts);
