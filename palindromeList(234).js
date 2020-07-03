@@ -8,7 +8,7 @@ function palindromeList(head) {
     slow = slow.next;
   }
 
-  // reverse half
+  // reverse second half
   let node = null;
   while (slow) {
     const next = slow.next;
