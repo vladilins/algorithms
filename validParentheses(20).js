@@ -2,7 +2,7 @@ function validParentheses(s) {
   const stack = [];
 
   for (let i = 0; i < s.length; i++) {
-    let c = s[i];
+    let c = s[i]; //?
     switch (c) {
       case "(":
         stack.push(")");
@@ -18,6 +18,7 @@ function validParentheses(s) {
           return false;
         }
     }
+    console.log(stack);
   }
 
   return stack.length === 0;
