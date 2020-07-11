@@ -37,7 +37,6 @@ iterativeInOrderTraversal({
   root: "1",
 });
 
-//test
 var inorderTraversal = function (root) {
   const res = [];
   const stack = [];
