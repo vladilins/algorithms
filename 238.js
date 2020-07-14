@@ -1,4 +1,4 @@
-var productExceptSelf = function(nums) {
+var productExceptSelf = function (nums) {
   var output = [];
   var leftMult = 1;
   var rightMult = 1;
