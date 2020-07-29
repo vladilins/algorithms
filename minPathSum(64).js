@@ -4,13 +4,13 @@ function minPathSum(grid) {
 
   // initial the first row
   for (let i = 1; i < n; i++) {
-    grid[0][i] = grid[0][i] + grid[0][i - 1];
+    grid[0][i] += grid[0][i - 1];
   }
   console.log(grid);
 
   // initial the first column
   for (let i = 1; i < m; i++) {
-    grid[i][0] = grid[i][0] + grid[i - 1][0];
+    grid[i][0] += grid[i - 1][0];
   }
   console.log(grid);
 
@@ -19,8 +19,7 @@ function minPathSum(grid) {
     for (let j = 1; j < n; j++) {
       const top = grid[i - 1][j]; //?
       const left = grid[i][j - 1]; //?
-      const cur = grid[i][j]; //?
-      grid[i][j] = Math.min(top, left) + cur; //?
+      grid[i][j] += Math.min(top, left); //?
       console.log(grid);
     }
     console.log(grid);
