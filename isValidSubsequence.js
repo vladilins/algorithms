@@ -1,3 +1,4 @@
+// Given two arrays find if second array is subsequence of first
 function isValidSubsequence(array, sequence) {
   let seqIdx = 0;
   for (let num of array) {
