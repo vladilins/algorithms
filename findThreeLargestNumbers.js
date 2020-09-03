@@ -1,5 +1,4 @@
 function findThreeLargestNumbers(array) {
-  // Write your code here.
   const result = [null, null, null];
   for (let num of array) {
     updateResult(result, num);
