@@ -1,3 +1,6 @@
+// Return a minimum number of edit to make strings equal
+// Operations: insert, delete, substitution for another character
+// O(nm) time | O(nm) space
 function levenshteinDistance(str1, str2) {
   const edits = [];
   for (let i = 0; i < str2.length + 1; i++) {

@@ -1,3 +1,5 @@
+// calculate sum of non-adjacent elements
+// O(n) time / O(1) space
 function maxSubsetSumNoAdjacent(array) {
   if (!array.length) return 0;
   if (array.length === 1) return array[0];
@@ -8,3 +10,5 @@ function maxSubsetSumNoAdjacent(array) {
   }
   return maxSums[maxSums.length - 1];
 }
+
+maxSubsetSumNoAdjacent([75, 105, 120, 75, 90, 135]); //?
