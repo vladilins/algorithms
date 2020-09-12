@@ -63,6 +63,6 @@ class MinHeap {
 }
 
 const test = new MinHeap([1, 2, 3, 44, 5, 6, 7, 8, 0]);
-test.remove();
+test.remove(); //?
 test.insert(-24);
-test.peak();
+test.peak(); //?
