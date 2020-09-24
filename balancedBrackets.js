@@ -17,5 +17,4 @@ function balancedBrackets(string) {
   }
   return stack.length === 0;
 }
-
 balancedBrackets("([])(){}(())()()"); //?
