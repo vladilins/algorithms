@@ -34,3 +34,5 @@ class BST {
     }
   }
 }
+
+const bst = new minHeightBst([1, 2, 5, 7, 10, 13, 14, 15, 22]); //?
