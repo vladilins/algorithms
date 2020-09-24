@@ -27,3 +27,7 @@ class MinMaxStack {
     return this.minMaxStack[this.minMaxStack.length - 1].max;
   }
 }
+
+const stack = new MinMaxStack();
+stack.push(5);
+stack.pop(); //?
