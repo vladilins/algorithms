@@ -1,3 +1,4 @@
+// O(n) time | O(d) space
 function rightSiblingTree(root) {
   mutate(root, null, null);
   return root;

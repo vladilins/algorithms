@@ -67,3 +67,6 @@ class SpecialBST {
 }
 
 rightSmallerThan([8, 5, 11, -1, 3, 4, 2]);
+// 5 integers smaller than 8 to the right
+// 4 integers smaller than 5 to the right
+// 4 integers smaller than 11  to the right
