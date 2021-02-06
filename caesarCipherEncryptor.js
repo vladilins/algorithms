@@ -1,6 +1,5 @@
 // O(n) time / O(n) space
 function caesarCipherEncryptor(string, key) {
-  // Write your code here.
   const result = [];
   let newKey = key % 26;
   for (let letter of string) {
