@@ -26,3 +26,16 @@ def shellSort(arr):
             # put temp (the original a[i]) in its correct location 
             arr[j] = temp 
         gap /= 2
+
+arr = [ 12, 34, 54, 2, 3] 
+  
+n = len(arr) 
+print ("Array before sorting:") 
+for i in range(n): 
+    print(arr[i]), 
+  
+shellSort(arr) 
+  
+print ("\nArray after sorting:") 
+for i in range(n): 
+    print(arr[i]), 
