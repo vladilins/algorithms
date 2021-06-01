@@ -14,6 +14,7 @@ function powerset(array, idx = null) {
   }
   return subset;
 }
+
 function powerset(array) {
   const subsets = [[]];
   for (let ele of array) {

@@ -20,9 +20,9 @@ function decodeString(s) {
       cur = stack.pop(); //?
     }
     // push current value
-    stack.push(cur);
+    stack.push(cur); //?
     // push str * num
-    stack.push(str.repeat(Number(num)));
+    stack.push(str.repeat(Number(num))); //?
   }
   return stack.join(""); //?
 }

@@ -12,7 +12,6 @@ function moveElementToEnd(array, toMove) {
 
 function swap(i, j, array) {
   [array[i], array[j]] = [array[j], array[i]];
-  return array;
 }
 
 moveElementToEnd([2, 1, 2, 2, 2, 3, 4, 2], 2); //?

@@ -1,6 +1,6 @@
 function longestSubstringWithoutDuplicates(string) {
   const lastSeen = {};
-  let longest = [0, 1];
+  let longest = [0, 1]; 
   let startIdx = 0;
   for (let i = 0; i < string.length; i++) {
     const char = string[i];
