@@ -5,6 +5,7 @@ function removeDups(list) {
   const seen = new Set();
 
   const node = list;
+  seen.add(node.val);
   while (node.next) {
     if (seen.has(node.next.val)) {
       node.next = node.next.next;
@@ -13,6 +14,6 @@ function removeDups(list) {
       node = node.next;
     }
   }
- 
+
   return list;
 }
