@@ -1,7 +1,5 @@
 // Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
-
 // Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
-
 // The order of output does not matter.
 
 // Input:
@@ -37,7 +35,7 @@ function findAnagrams(s, p) {
   while (end < s.length) {
     let char = s[end]; // The 'current' character
     // If the current character exists in the frequency map, then decrement it's count
-    // and if the count reaches 0, then we know we got the right # of occurences for it
+    // and if the count reaches 0, then we know we got the right # of occurrences for it
     if (freqMap[char] !== undefined) {
       freqMap[char] -= 1;
       if (freqMap[char] === 0) count--;

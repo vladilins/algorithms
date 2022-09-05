@@ -1,6 +1,4 @@
 function activityNotifications(expenditure, d) {
-  console.log(expenditure, d);
-
   let sum = 0;
   let notice = 0;
   for (let i = 0; i <= d - 1; i++) {

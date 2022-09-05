@@ -8,8 +8,8 @@ function countSubstrings(s) {
 
   function isPalindrome(l, r, s) {
     while (l >= 0 && r <= s.length && s[l] === s[r]) {
-      l--;
-      r++;
+      l--; //?
+      r++; //?
       count++;
     }
   }
